@@ -1,52 +1,3 @@
-@media only screen and (max-width: 1350px) {
-    .main--blog-topics-options{
-        width: 93.75vw;
-        flex-wrap: wrap;
-    }
-    .hr-header{
-        width: 100%;
-    }
-    .nav--wrap{
-        margin-left: 32px;
-    }
-    .nav--wrap a{
-        margin-right: 16px;
-    }
-    .big-post{
-        width: 48%;
-        height: 30%;
-    }
-    .small-post{
-        width: 31%;
-        height: 38%;
-    }
-    .blog-post-container-big{
-        width: 468px;
-        height: 238px;
-    }
-    .blog-post-image{
-        width: 468px;
-        height: 260px;
-        object-fit: cover;
-    }
-    .small-image{
-        width: 304px;
-        height: 206px;
-    }
-    .blog-post-container-small{
-        position: relative;
-        width: 304px;
-        height: 253px;
-    }
-    .main--blog-posts{
-        margin-bottom: 35px;
-    }
-    .main--button-more{
-        margin-bottom: 60px;
-    }
-}
-
-
 /* Ipad Pro*/
 @media only screen and (max-width: 1024px) {
     body{
@@ -154,6 +105,11 @@
     .hamburger-button{
         display: block;
     }
+
+    .main--blog-posts{
+        max-width: 728px;
+        width: 100%;
+    }
     .main--blog-posts-row1{
         display: block;
     }
@@ -210,14 +166,14 @@
 }
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 415px) {
     .logo{
         width: 48px;
     }
     .main--page-heading h1{
         font-size: 32px;
     }
-    .main--blog-topics-options{
+    .options--list{
         height: 32px;
         overflow-x: scroll;
         white-space: nowrap;
@@ -252,6 +208,7 @@
         margin-bottom: 59px;
     }
     footer{
+
         height: 746px;
     }
     .footer--menu-wrap-responsive{
@@ -284,74 +241,6 @@
     .footer--details p{
         margin-bottom: 20px;
     }
-}
-
-@media only screen and (max-width: 390px) {
-    .subscription-button{
-        display: none;
-    }
-    .footer--menu-wrap-responsive-iphone{
-        margin: 0 auto 20px;
-        width: 356px;
-    }
-    .footer--menu-wrap-column3, .footer--menu-wrap-column4, .hr-footer,
-    .footer--menu-wrap-column3-subscription, .footer--menu-wrap-column3-heading, .footer--details{
-        width: 356px;
-        margin: auto;
-    }
-    .hr-footer{
-        margin-bottom: 22px;
-    }
-    .footer--menu-wrap-column3-heading, .footer--menu-wrap-column3-subscription{
-        margin-bottom: 10px;
-    }
-
-}
-
-@media only screen and (max-width: 375px) {
-    .hamburger-button{
-        margin-right: 8px;
-    }
-    .big-post, .small-post{
-        width: 306px;
-        height: 484px;
-        margin: auto;
-    }
-    .blog-post-container-big, .blog-post-container-small{
-        width: 306px;
-        height: 278px;
-        margin: auto;
-    }
-    .blog-post-image, .small-image{
-        width: 306px;
-        height: 206px;
-        object-fit: cover;
-        margin: auto;
-    }
-    .footer--menu-wrap-responsive-iphone, .footer--menu-wrap-column3, .footer--menu-wrap-column4, .hr-footer,
-    .footer--menu-wrap-column3-subscription, .footer--menu-wrap-column3-heading, .footer--details{
-        width: 306px;
-        margin: auto;
-    }
-    .blog-post{
-        margin-bottom: 16px;
-    }
-    .main--blog-posts-row1 {
-        margin-bottom: 0px;
-    }
-    .footer--menu-wrap-responsive-iphone{
-        margin-bottom: 23px;
-    }
-    .footer--menu-wrap-column3-heading, .footer--menu-wrap-column3-subscription{
-        margin-bottom: 8px;
-    }
-    .subscription-button{
-        display: none;
-    }
-    .hr-footer{
-        margin-bottom: 20px;
-    }
-
 }
 
 /* iPhone SE */

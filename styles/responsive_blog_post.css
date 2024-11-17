@@ -16,7 +16,7 @@
     .article--wrap, .article--image {
         width: 714px;
     }
-    .main--menu-blog {
+    .main--menu-blog-post {
         margin-left: 32px;
     }
     .aside--illustration {
@@ -146,7 +146,7 @@
 
 
 /* iPhone 11 Pro Max */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 415px) {
     .aside--wrap{
         display: block;
     }
@@ -160,7 +160,7 @@
         font-size: 32px;
         line-height: 40px;
     }
-    .main--menu-blog {
+    .main--menu-blog-post {
         margin-left: 20px;
     }
     .main--menu-blog-text3{
