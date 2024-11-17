@@ -139,7 +139,7 @@ main {
     color: #333333;
 }
 
-/* Main page menu*/
+/* Main page options*/
 
 .main--page-heading{
     margin-bottom: 32px;
@@ -167,6 +167,15 @@ main {
     margin-right: 8px;
     height: 32px;
 }
+
+.options--list{
+    display: flex;
+}
+
+.options--item{
+    list-style: none;
+}
+
 .selected-button{
     border: solid 2px #16C8BB;
     background-color: #F9FDFD;
@@ -183,6 +192,7 @@ main {
     font-weight: 600;
 }
 
+/* Main posts */
 .main--blog-posts{
     margin-bottom: 54px;
     width: 83.3vw;
@@ -215,7 +225,7 @@ main {
 
 
 
-/* -------------> blog post containers css*/
+/*Blog post containers css*/
 .blog-post{
     position: relative;
 }
@@ -318,7 +328,7 @@ main {
 }
 
 
-/* -------------> blog_post.html page */
+/* Blog_post.html page */
 .body--blog-post{
     background-image: none;
 }
@@ -603,7 +613,7 @@ main {
 }
 
 
-/* ---------------------> Article blog_post.html */
+/* Article blog_post.html */
 .article--content{
     font-size: 16px;
     font-weight: 700;
@@ -832,7 +842,7 @@ main {
 
 
 
-/* ------------------->  footer code */
+/* Footer code */
 footer{
     background-color: #2963A3;
     height: 302px;
@@ -847,6 +857,7 @@ footer{
     display: flex;
 }
 .footer--menu-wrap h4{
+    cursor: pointer;
     color: #FFFFFF;
     font-size: 16px;
 }
@@ -897,6 +908,7 @@ footer{
     margin: 14px 16px 14px;
 }
 .footer--menu-wrap-column3-subscription button{
+    cursor: pointer;
     height: 48px;
     width: 64px;
     background-color: #16C8BB;
@@ -925,6 +937,7 @@ footer{
     width: 83.3vw;
 }
 .footer--details p{
+    cursor: pointer;
     font-size: 14px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -932,10 +945,12 @@ footer{
 }
 
 .footer--social-media-row1{
+    cursor: pointer;
     display: flex;
     margin-bottom: 40px;
 }
 .footer--social-media-row2{
+    cursor: pointer;
     display: flex;
     width: 176px;
     justify-content: space-between;

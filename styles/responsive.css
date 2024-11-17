@@ -47,7 +47,7 @@
 }
 
 
-
+/* Ipad Pro*/
 @media only screen and (max-width: 1024px) {
     body{
         background-color: #FFFFFF;
@@ -62,14 +62,24 @@
     }
     .nav--wrap{
         margin-left: 32px;
+        margin-right: 20px;
     }
-    .nav--wrap a{
+
+    .nav--list--item{
         margin-right: 16px;
+    }
+
+    .nav--wrap a:last-child {
+        margin-right: 0;
     }
     .main--blog-topics-options{
         width: 93.75vw;
+    }
+
+    .options--list{
         flex-wrap: wrap;
     }
+
     .blog-topic{
         height: 32px;
         white-space: nowrap;
