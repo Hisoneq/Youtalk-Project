@@ -1,0 +1,314 @@
+/* iPad Pro 12.9 */
+@media only screen and (max-width: 1024px) {
+    .aside--wrap-friends, 
+    .aside--wrap-psychologist, 
+    .aside--wrap-give-kindness, 
+    .aside--wrap-presents{
+        width: 222px;
+    }
+    .aside--wrap-friends {
+        height: 495px;
+        padding: 24px 20px;
+    }
+    .aside--wrap-psychologist{
+        height: 530px;
+    }
+    .article--wrap, .article--image {
+        width: 714px;
+    }
+    .main--menu-blog {
+        margin-left: 32px;
+    }
+    .aside--illustration {
+        width: 181px;
+        margin-bottom: 24px;
+    }
+    .aside--wrap-list {
+        text-align: left;
+        padding-right: 16px;
+        line-height: 24px;
+    }
+    .aside-list-marker{
+        margin-bottom: 0px;
+    }
+    .aside--wrap-psychologist {
+        padding: 0px 16px 36px;
+    }
+    .aside--wrap-presents{
+        padding: 24px;
+    }
+    .aside--container1-text-price {
+        margin-bottom: 0px;
+    }
+    .aside--illustration-present-orange {
+        right: 4px;
+        width: 88px;
+    }
+    .aside--illustration-present-blue {
+        right: -55px;
+    }
+    .aside--button-more-information {
+        background-color: #35B3A9;
+        border-radius: 4px;
+        border: none;
+        height: 48px;
+        width: 182px;
+    }
+    .section--page-bottom-wrap, 
+    .main--line-hr,
+    .section--page-footer-wrap,
+    .article--blog-topics-bottom{
+        display: none;
+    }
+    .article--photos-text1, .article--content4-photo{
+        width: 345px;
+    }
+    .article--content-list-wrap a:nth-child(2),
+    .article--content-list-wrap a:nth-child(6),
+    .article--content-list-wrap a p {
+        display: none;
+    }
+
+}
+
+
+/* iPad mini */
+@media only screen and (max-width: 768px) {
+    .main--blog-post-grid {
+        display: block;
+    }
+    .article--wrap, .article--image {
+        width: 728px;
+    }
+    .article--photos-text1, .article--content4-photo{
+        width: 356px;
+    }
+    .aside--wrap{
+        display: grid;
+        grid-template-columns: repeat(2, 355px);
+        grid-template-rows: 482px 248px;
+        grid-gap: 36px 16px;
+        margin-bottom: 59px;
+    }
+    .aside--wrap-friends,
+    .aside--wrap-psychologist{
+        height: 482px;
+        width: 355px;
+    }
+    .aside--wrap-give-kindness,
+    .aside--wrap-presents{
+        height: 248px;
+        width: 355px;
+    }
+    .aside--illustration{
+        width: 257px;
+    }
+    .aside--container1-heading {
+        line-height: 24px;
+        width: 200px;
+        margin: auto;
+    }
+    .aside--container1-text{
+        margin-top: 8px;
+    }
+    .aside--button-more-information{
+        width: 310px;
+    }
+    .container-psychologist, .aside--wrap-psychologist-hr{
+        width: 250px;
+    }
+    .aside--wrap-list {
+        margin-left: 52.5px;
+    }
+    .aside--wrap-kindness-text {
+        margin: 60px 51px 142px;
+    }
+    .aside--illustration-present_green {
+        left: 134px;
+    }
+    .aside--illustration-present_yellow {
+        left: 20px;
+    }
+    .aside--illustration-present_orange {
+        bottom: -30px;
+        right: 0px;
+    }
+    .aside--illustration-confetti {
+        width: 355px;
+    }
+    .aside--illustration-present-blue {
+        right: 15px;
+    }
+    .aside--illustration-present-orange {
+        right: 75px;
+    }
+}
+
+
+/* iPhone 11 Pro Max */
+@media only screen and (max-width: 414px) {
+    .aside--wrap{
+        display: block;
+    }
+    .article--wrap, 
+    .article--image,
+    .article--content-list-wrap,
+    .article--heading {
+        width: 374px;
+    }
+    .article--heading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .main--menu-blog {
+        margin-left: 20px;
+    }
+    .main--menu-blog-text3{
+        max-width: 70%;
+        margin-right: 20px;
+    }
+    .article--photos-text-wrap, 
+    .article--content4-wrap,
+    .article--content4-wrap{
+        display: block;
+    }
+    .article--content4-text {
+        margin-left: 0px;
+    }
+    .article--content4-photo {
+        width: 374px;
+        height: 380px;
+        object-fit: cover;
+    }
+    .article--quote-wrap {
+        height: 218px;
+    }
+    .article--abstract-illustration {
+        left: 67px;
+    }
+    .info-italic-center {
+        margin: 0px;
+    }
+    .photo-hands{
+        height: 207px;
+    }
+    .aside--wrap-friends{
+        height: 512px;
+        width: 374px;
+        float: none;
+        padding: 24px 32px 44px;
+    }
+    .aside--wrap-psychologist{
+        height: 481px;
+        width: 374px;
+        float: none;
+    }
+    .aside--wrap-give-kindness,
+    .aside--wrap-presents{
+        height: 292px;
+        width: 374px;
+        float: none;
+    }
+    .aside--button-more-information,
+    .aside--container1-text {
+        width: 310px;
+    }
+    .aside--wrap-list {
+        width: 250px;
+        margin: auto;   
+    }
+    .container-psychologist{
+        width: 250px;
+    }
+    .aside--container-button {
+        margin-top: 16px;
+    }
+    .aside--wrap-kindness-text {
+        margin: 60px 60px auto 60px;
+    }
+}
+
+
+
+/* iPhone SE */
+@media only screen and (max-width: 320px) {
+    .main--menu-blog {
+        margin-left: 16px;
+    }
+    .main--blog-post-grid{
+        width: 288px;
+    }
+    .main--menu-blog-text3{
+        max-width: 50%;
+        margin-right: 16px;
+    }
+    .article--wrap, 
+    .article--image,
+    .article--content-list-wrap,
+    .article--heading,
+    .article--photos-text1 {
+        width: 288px;
+    }
+    .article--heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .article--content4-photo {
+        width: 288px;
+        height: 380px;
+        object-fit: cover;
+    }
+    .article--content4-photo {
+        width: 288px;
+        height: 380px;
+        object-fit: cover;
+    }
+    .photo-hands {
+        height: 160px;
+        width: 288px;
+    }
+    .photo-sunset,
+    .photo-chair{
+        height: 235px;
+        width: 288px;
+    }
+    .article--quote-wrap {
+        height: 290px;
+    }
+    .article--content3-wrap {
+        padding-top: 0px;
+    }
+    .article--abstract-illustration {
+        left: 40px;
+    }
+    .aside--wrap-friends,
+    .aside--wrap-psychologist{
+        height: 512px;
+        width: 288px;
+        float: none;
+    }
+    .aside--wrap-psychologist{
+        height: 481px;
+        width: 288px;
+        float: none;
+    }
+    .aside--wrap-give-kindness,
+    .aside--wrap-presents{
+        height: 292px;
+        width: 288px;
+        float: none;
+    }
+    .aside--button-more-information {
+        width: 239px;
+    }
+    .aside--wrap-list {
+        margin-left: 0px;
+        margin-bottom: 16px;
+    }
+    .aside--container-button {
+        margin-top: 16px;
+    }
+    .aside--container1-text {
+        width: 239px;
+    }
+}
