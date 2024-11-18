@@ -1,3 +1,3 @@
 # Youtalk project
 
-Added first commit, bugs will be fixed gradually
+Completely ready adaptive pet project
